@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Music Player | Audio Player 🎵</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app-cover">
+  <div id="bg-artwork"></div>
+  <div id="bg-layer"></div>
+  <div id="player">
+    <div id="player-track">
+      <div id="album-name"></div>
+      <div id="track-name"></div>
+      <div id="track-time">
+        <div id="current-time"></div>
+        <div id="track-length"></div>
+      </div>
+      <div id="s-area">
+        <div id="ins-time"></div>
+        <div id="s-hover"></div>
+        <div id="seek-bar"></div>
+      </div>
+    </div>
+    <div id="player-content">
+      <div id="album-art">
+        <img src="https://64.media.tumblr.com/16c7a54fd907f4936b103e5d90207b97/b412fdb0cec6b159-6d/s1280x1920/1eeb1c67b7913c2b749ebb45b64c5d6e9a1121db.jpg" class="active" id="_1">
+        <img src="https://64.media.tumblr.com/4c7149f283b1270bdebbe4fe8537bb12/b412fdb0cec6b159-1f/s1280x1920/afc3d758b274a2aacff6a25ba35c8bbbf014a775.jpg" id="_2">
+        <img src="https://64.media.tumblr.com/43343b202753cecb4207410bb870fb46/b412fdb0cec6b159-71/s1280x1920/181ffec8adb026f99bdd32560119ce2aedcb0990.jpg" id="_3">
+        <img src="https://64.media.tumblr.com/7b1a251b6439148016658ca6286bff8a/b412fdb0cec6b159-a2/s1280x1920/9843299b5a0624fa357af668e4ad856ddaa89397.jpg" id="_4">
+        <img src="https://64.media.tumblr.com/3fa78884d390f1ec258a92db1013ed22/b412fdb0cec6b159-ce/s1280x1920/4a62402a7afac68804c1ee4fa4d53aa67fcd1593.jpg" id="_5">
+        <div id="buffer-box">Buffering ...</div>
+      </div>
+      <div id="player-controls">
+        <div class="control">
+          <div class="button" id="play-previous">
+            <i class="fas fa-backward"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-pause-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-next">
+            <i class="fas fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
